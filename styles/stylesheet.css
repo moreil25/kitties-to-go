@@ -1,15 +1,25 @@
 body {
   font-family: sans-serif;
   font-size: 16px;
-  color: ;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  color: #494949;
+  padding: 1em;
+  border: none;
+  margin: .5em;
   width: 75%;
+}
+.box1 {
+  box-sizing: content-box;
 }
 .main-text {
   padding: 2em;
   border: none;
   margin: auto;
+}
+.intro {
+  padding: 2em;
+  border: none;
+  margin: auto;
+
 }
 header {
   color: #ffffff;
@@ -41,12 +51,12 @@ nav.top {
 blockquote {
   font: 22px, sans-serif;
   color: #7ed9e6;
-  margin-top: 10em;
-  margin-bottom: 10em;
-  margin-left: 8em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 3em;
   padding-left: 2em;
   border-left: 2em;
-  width: 25%;
+  width: 75%;
 }
 .center-large {
   text-align: center;
@@ -57,7 +67,7 @@ aside {
   border: none;
   margin: .5em;
   width: 25%;
-  position: relative;
+  display: block;
 }
 p {
   font-size: 16px;
@@ -73,28 +83,8 @@ h3 {
   font-size: 20px;
   color: ;
 }
-img {
-  border-style: ;
-  border-color: ;
-  border-width: ;
-  width: ;
-  margin: ;
-  padding: ;
-}
 a:link {
-  color: #7ed9e6;
-  padding: .5em;
-  margin: .5em;
   text-decoration: none;
-}
- a:visited {
-   color: ;
- }
-  a:hover {
-  color: ;
-}
-  a:active {
-  color: ;
 }
 footer {
   background-color: #494949;
@@ -102,6 +92,7 @@ footer {
   border: none;
   margin: 0em 1em 1em 1em;
   width: 100%;
+  text-align: center;
 }
 .footer-link {
   color: #ffffff;
@@ -112,4 +103,10 @@ footer {
 }
 footer.bottom {
   background-color: #494949;
+}
+footer.footer-img {
+  image-orientation: center;
+}
+footer.p {
+  color: #ffffff;
 }
