@@ -14,9 +14,9 @@ body {
 header {
   color: #ffffff;
   background-color: #45cef7;
-  padding: 4em;
+  padding: 2em;
   border: none;
-  margin: 1em;
+  margin: 1em 1em 0em 1em;
   width: 100%;
 }
 h1 {
@@ -24,12 +24,19 @@ h1 {
   color: #ffffff;
   border: /*width  style color*/
 }
-nav {
+nav.top {
   background-color: #efefef;
   padding: 2em;
   border: none;
-  margin: .5em;
+  margin: 0em 1em 1em 1em;
   width: 100%;
+}
+.nav-link {
+  color: #494949;
+  padding: .5em;
+  margin: .5em;
+  text-decoration: none;
+  text-align: center;
 }
 blockquote {
   font: 22px, sans-serif;
@@ -40,6 +47,9 @@ blockquote {
   padding-left: 2em;
   border-left: 2em;
   width: 25%;
+}
+.center-large {
+  text-align: center;
 }
 aside {
   float: right;
@@ -71,13 +81,11 @@ img {
   margin: ;
   padding: ;
 }
-a:link, a:visited {
-  color: ;
-  margin: ;
-  padding: ;
+a:link {
+  color: #7ed9e6;
+  padding: .5em;
+  margin: .5em;
   text-decoration: none;
-  text-align: ;
-  display: ;
 }
  a:visited {
    color: ;
@@ -87,4 +95,21 @@ a:link, a:visited {
 }
   a:active {
   color: ;
+}
+footer {
+  background-color: #494949;
+  padding: 2em;
+  border: none;
+  margin: 0em 1em 1em 1em;
+  width: 100%;
+}
+.footer-link {
+  color: #ffffff;
+  padding: .5em;
+  margin: .5em;
+  text-decoration: none;
+  text-align: center;
+}
+footer.bottom {
+  background-color: #494949;
 }
