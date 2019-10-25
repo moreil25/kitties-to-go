@@ -4,13 +4,19 @@ body {
   color: ;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 75%;
+}
+.main-text {
+  padding: 2em;
+  border: none;
+  margin: auto;
 }
 header {
   color: #ffffff;
   background-color: #45cef7;
   padding: 4em;
   border: none;
-  margin: 1em 1em 1em 1em;
+  margin: 1em;
   width: 100%;
 }
 h1 {
@@ -18,10 +24,31 @@ h1 {
   color: #ffffff;
   border: /*width  style color*/
 }
+nav {
+  background-color: #efefef;
+  padding: 2em;
+  border: none;
+  margin: .5em;
+  width: 100%;
+}
+blockquote {
+  font: 22px, sans-serif;
+  color: #7ed9e6;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  margin-left: 8em;
+  padding-left: 2em;
+  border-left: 2em;
+  width: 25%;
+}
 aside {
   float: right;
+  padding: 2em;
+  border: none;
+  margin: .5em;
+  width: 25%;
+  position: relative;
 }
-]
 p {
   font-size: 16px;
 }
@@ -35,10 +62,6 @@ h2 {
 h3 {
   font-size: 20px;
   color: ;
-}
-#right-side {
-  float: right;
-
 }
 img {
   border-style: ;
