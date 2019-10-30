@@ -16,14 +16,12 @@ body {
   padding: 1em;
   border: none;
   margin: .5em;
-  align: left;
 }
 
 .intro {
   padding: 1em;
   border: none;
   margin: .5em;
-  align: left;
 }
 
 header {
@@ -100,7 +98,10 @@ aside {
 }
 
 img {
-  image-orientation:  center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 .cat-picture {
@@ -130,7 +131,7 @@ a:visited {
 
 footer {
   background-color: #494949;
-  font: #ffffff;
+  color: #ffffff;
   font-size: .5em;
   padding: 2em;
   border: none;
@@ -152,7 +153,9 @@ footer.bottom {
 }
 
 .footer-img {
-  image-orientation: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 25%;
 }
 
