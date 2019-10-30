@@ -135,8 +135,8 @@ footer {
   padding: 2em;
   border: none;
   margin: 0em 1em 1em 1em;
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 .footer-link {
@@ -153,7 +153,7 @@ footer.bottom {
 
 .footer-img {
   image-orientation: center;
-  width: 33%;
+  width: 25%;
 }
 
 .white-text {
