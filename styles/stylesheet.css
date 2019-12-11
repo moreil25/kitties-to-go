@@ -114,10 +114,20 @@ p {
 
 h2 {
   font-size: 2em;
+  text-align: center;
+  padding: .5em;
+  border: none;
+  margin: .5em;
 }
 
+
 h3 {
-  font-size: 1.5em;
+  clear: left;
+  font-size: 2em;
+  text-align: center;
+  padding: .5em;
+  border: none;
+  margin: .5em;
 }
 
 a:link {
@@ -157,8 +167,57 @@ footer.bottom {
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-}
+  }
 
 .white-text {
   color: #ffffff;
+}
+
+.story-headline {
+  font-size: 1.25em;
+  text-align: left;
+}
+
+.header-img {
+  width: 100%;
+  opacity: .7;
+}
+
+.sweet-thing {
+  width: 90%;
+}
+
+.squirt {
+  width: 90%;
+}
+
+.mittens {
+  width: 90%;
+}
+
+.profile-1 {
+  padding: .5em;
+  border: none;
+  margin: .5em;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.profile-2 {
+  padding: .5em;
+  border: none;
+  margin: .5em;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.profile-3 {
+  padding: .5em;
+  border: none;
+  margin: .5em;
+  width: 30%;
+  float: left;
+  text-align: center;
 }
