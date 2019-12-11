@@ -35,20 +35,38 @@ header {
 
 h1 {
   font-size: 4em;
-  text-align: left;
   color: #ffffff;
   padding: .25em .25em 0 0;
   border: none;
   margin: .25em .25em 0 0;
 }
 
-.important {
-  font-size: 1.75em;
-  font-style: italic;
-  text-align: left;
-  padding: 0 .25em .25em 0;
+h2 {
+  font-size: 2em;
+  padding: .25em .25em .25em 0;
   border: none;
-  margin: .25em .25em .25em 0;
+  margin: .25em .25em 0 0;
+}
+
+h3 {
+  clear: left;
+  font-size: 1.5em;
+  text-align: center;
+  padding: .5em;
+  border: none;
+  margin: .5em;
+}
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
+}
+.important {
+  font-weight: 300;
+  font-style: italic;
 }
 
 nav.top {
@@ -62,7 +80,7 @@ nav.top {
 .nav-link {
   color: #494949;
   padding: .5em;
-  margin: .5em;
+  margin: 1em;
   text-decoration: none;
   text-align: center;
 }
@@ -77,10 +95,6 @@ blockquote {
   width: 75%;
 }
 
-.left-large {
-  text-align: left;
-  font-family: "Helvetica";
-}
 
 aside {
   float: right;
@@ -89,6 +103,11 @@ aside {
   margin: .5em;
   width: 25%;
   text-align: left;
+}
+
+.container {
+  padding: .25em;
+  margin: .5em;
 }
 
 .news-cats {
@@ -111,28 +130,11 @@ img {
 p {
   font-size: 1em;
 }
-
-h2 {
-  font-size: 2em;
-  text-align: center;
-  padding: .5em;
-  border: none;
-  margin: .5em;
-}
-
-
-h3 {
-  clear: left;
-  font-size: 2em;
-  text-align: center;
-  padding: .5em;
-  border: none;
-  margin: .5em;
-}
-
 a:link {
   text-decoration: none;
   color: #2c9ab7;
+  padding: .25em;
+  margin: .5em;
 }
 
 a:visited {
