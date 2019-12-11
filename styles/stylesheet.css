@@ -26,7 +26,7 @@ body {
 
 header {
   color: #ffffff;
-  background-color: #2c9ab7;
+  background-color: #257F98;
   padding: 2em;
   border: none;
   margin: 1em 1em 0em 1em;
@@ -88,7 +88,7 @@ nav.top {
 blockquote {
   font-family: "Helvetica";
   font-size: 1.5em;
-  color: #2c9ab7;
+  color: #257F98;
   margin: 1.5em;
   padding-left: 1em;
   border-left: 1em;
@@ -97,29 +97,23 @@ blockquote {
 
 
 aside {
+  padding: .25em;
+  margin: .5em;
   float: right;
   padding: .5em;
-  border: none;
-  margin: .5em;
   width: 25%;
   text-align: left;
 }
 
-.container {
-  padding: .25em;
-  margin: .5em;
-}
-
-.news-cats {
+/*.news-cats {
   padding: .5em;
   border: none;
   margin: .5em;
-}
+}*/ 
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 25%;
 }
 
@@ -130,15 +124,16 @@ img {
 p {
   font-size: 1em;
 }
+
 a:link {
   text-decoration: none;
-  color: #2c9ab7;
+  color: #257f98;
   padding: .25em;
   margin: .5em;
 }
 
 a:visited {
-  color: #1F6B80;
+  color: #1A576B;
 }
 
 footer {
@@ -160,14 +155,10 @@ footer {
   text-align: center;
 }
 
-footer.bottom {
-  background-color: #393939;
-}
 
 .footer-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 25%;
   }
 
