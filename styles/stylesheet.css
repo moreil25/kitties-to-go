@@ -56,6 +56,16 @@ h3 {
   border: none;
   margin: .5em;
 }
+
+h4 {
+  clear: left;
+  font-size: 1.25em;
+  text-align: center;
+  padding: .25em;
+  border: none;
+  margin: .25em;
+}
+
 .hidden {
   position: relative;
   left: -10000px;
@@ -109,7 +119,7 @@ aside {
   padding: .5em;
   border: none;
   margin: .5em;
-}*/ 
+}*/
 
 img {
   display: block;
