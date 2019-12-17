@@ -149,10 +149,11 @@ a:visited {
 footer {
   background-color: #494949;
   color: #ffffff;
+  float: left;
   font-size: .5em;
   padding: 2em;
   border: none;
-  margin: 0em 1em 1em 1em;
+  margin: 1em 1em 1em 1em;
   text-align: center;
   width: 100%;
 }
